@@ -49,6 +49,9 @@ export default function Home() {
       <Head>
         <title>Portfolio</title>
         <link rel='icon' type="image/x-con" href={favicon}></link>
+        <meta property="og:title" content="Let's Create"></meta>
+        <meta property="og:description" content="Clark Holden's web developing portfolio."></meta>
+        <meta property="og:image" content="spaceship.png"/>
       </Head>
       <Navigation navbarcolor={navbarcolor} offsetY={scrollPosition} />
 
