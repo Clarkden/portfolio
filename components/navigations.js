@@ -20,7 +20,7 @@ export default function Navigation({ navbarcolor, offsetY }) {
                 <div className='hidden md:flex md:flex-row md:gap-2 transition'>
                     <a href='#whoAmI' className='font-light text-base text-white hover:text-pink-300'>ABOUT</a>
                     <a href='#mywork' className='font-light text-white hover:text-sky-300'>WORK</a>
-                    <a href='#' contact className='font-light text-white hover:text-green-300'>CONTACT</a>
+                    <a href='#contact' contact className='font-light text-white hover:text-green-300'>CONTACT</a>
                     <div className='flex flex-row gap-2 items-center ml-2'>
                         <FontAwesomeIcon icon={faTwitter} className='text-white hover:scale-110 hover:cursor-pointer' />
                         <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/clarkh_development/'><FontAwesomeIcon icon={faInstagram} className='text-white hover:scale-110 hover:cursor-pointer' /> </a>

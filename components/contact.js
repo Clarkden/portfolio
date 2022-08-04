@@ -76,7 +76,7 @@ export default function Contact() {
 
     return (
         // <Parallax speed={20} >
-        <div className='h-fit gap-5 md:gap-0 py-10 md:py-0 md:h-[70vh] w-11/12 mx-auto flex flex-col md:flex-row md:justify-around items-center saturate-150'>
+        <div id='contact' className='h-fit gap-5 md:gap-0 py-10 md:py-0 md:h-[70vh] w-11/12 mx-auto flex flex-col md:flex-row md:justify-around items-center saturate-150'>
             <div className='w-11/12 mx-auto md:w-1/2 md:pr-14 flex flex-col gap-3'>
                 <h3 className='font-semibold text-xl text-green-400 mb-2'>CONTACT</h3>
                 <h1 className='font-extrabold text-3xl md:text-4xl text-white'>Got an idea you <br></br>you're ready to see made?</h1>
