@@ -80,7 +80,7 @@ export default function Contact() {
             <div className='w-11/12 mx-auto md:w-1/2 md:pr-14 flex flex-col gap-3'>
                 <h3 className='font-semibold text-xl text-green-400 mb-2'>CONTACT</h3>
                 <h1 className='font-extrabold text-3xl md:text-4xl text-white'>Got an idea you <br></br>you're ready to see made?</h1>
-                <p className='md:text-xl font-light text-gray-400'>Buckle up, this ride to your finished product is going to be a fun one. Start by telling me your idea!</p>
+                <p className='md:text-xl font-light text-gray-400'>Buckle up, this ride to your finished product is going to be a fun one. Start by telling me your vision!</p>
                 <div className='flex flex-row gap-2 items-center'>
                     <FontAwesomeIcon icon={faEnvelope} className='text-green-400 text-xl' />
                     <a href='mailto:clark_holden@icloud.com' className='text-green-400 text-base font-light'>clark_holden@icloud.com</a>

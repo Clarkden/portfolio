@@ -12,8 +12,7 @@ export default function WhoAmI() {
                 <Parallax translateY={['200px', '-200px']} speed={-20} >
                     <img src='spaceship.png' className='md:w-[400px] absolute'></img>
                 </Parallax>
-                {/* <Parallax speed={-10} translateY={['400px', '200px']}> */}
-                    <div className='bg-transparent flex flex-col justify-around md:flex-row md:justify-between md:items-center h-full md:h-[80%] w-11/12 md:w-2/3 mx-auto py-20 md:py-0'>
+                    <div className='bg-transparent flex flex-col justify-center gap-10 md:gap-0 md:flex-row md:justify-between md:items-center h-full md:h-[80%] w-11/12 md:w-2/3 mx-auto py-20 md:py-0'>
                         <div className='flex flex-col md:w-1/2'>
                             <h1 className='font-bold tracking-tighter text-lg sm:text-2xl md:text-3xl text-yellow-300  transition '>WHO AM I?</h1>
                             <h1 id='content'></h1>
@@ -29,10 +28,9 @@ export default function WhoAmI() {
                         </div>
                         <div className='md:w-1/2 saturate-150'>
                             
-                            <p className='font-semibold text-lg sm:text-xl md:text-2xl'>Hi, I'm <span className='text-yellow-400 font-bold drop-shadow-lg'>Clark</span>! I'm the one that's going to take your idea and <span className='text-yellow-400'>send it to the moon.</span> I'm a web developer working with frameworks like <span className='text-green-400'>React and Next Js</span>.</p>
+                            <p className='font-semibold text-lg sm:text-xl md:text-2xl'>Hi, I'm <span className='text-yellow-400 font-bold drop-shadow-lg'>Clark</span>! I'm the one that's going to take your idea and <span className='text-yellow-400'>bring it to life.</span> I'm a web developer with a background in typescript and react. From static sites to complex web apps,<span className='text-green-400'> I can do it</span>.</p>
                         </div>
                     </div>
-                {/* </Parallax> */}
             </section>
 
 

@@ -26,11 +26,10 @@ export default function Mywork() {
           </h1>
           <h1 className="font-semibold text-lg sm:text-xl md:text-2xl text-white">
             That means{" "}
-            <span className="text-red-400 font-extrabold drop-shadow-md">
-              no matter
+            from landing pages to ecommerce sites, <span className="text-red-400 font-extrabold drop-shadow-md">
+               I can get it done.
             </span>{" "}
-            if the project is a simple one page site or a complex web app, I can
-            get it done.
+    
           </h1>
         </div>
       </div>
@@ -49,7 +48,8 @@ export default function Mywork() {
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 direction="horizontal"
-                className="w-[80vw] md:w-[48vw]"
+                className="w-[95vw] md:w-[48vw]"
+                onSwiper={(swiper) => console.log(swiper)}
               >
                 <SwiperSlide>
                   <div className="">
