@@ -76,7 +76,7 @@ export default function Contact() {
 
     return (
         // <Parallax speed={20} >
-        <div id='contact' className='h-fit gap-5 md:gap-0 py-10 md:py-0 md:h-[70vh] w-11/12 mx-auto flex flex-col md:flex-row md:justify-around items-center saturate-150'>
+        <div id='contact' className='h-fit gap-5 md:gap-0 py-40 md:py-0 md:h-[100vh] w-11/12 mx-auto flex flex-col md:flex-row md:justify-around items-center saturate-150'>
             <div className='w-11/12 mx-auto md:w-1/2 md:pr-14 flex flex-col gap-3'>
                 <h3 className='font-semibold text-xl text-green-400 mb-2'>CONTACT</h3>
                 <h1 className='font-extrabold text-3xl md:text-4xl text-white'>Got an idea you <br></br>you're ready to see made?</h1>
@@ -86,21 +86,21 @@ export default function Contact() {
                     <a href='mailto:clark_holden@icloud.com' className='text-green-400 text-base font-light'>clark_holden@icloud.com</a>
                 </div>
             </div>
-            <form className='flex flex-col gap-5 w-11/12 mx-auto md:w-1/2' onSubmit={(e) => onSubmitForm(e)}>
-                <input id='name' name='name' type='text' placeholder='Your Name' className=' placeholder:text-neutral-400 text-white md:placeholder:text-lg md:w-11/12 bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition' onChange={handleChange}></input>
-                <input id='email' name='email' type='email' placeholder='Your Email' className='placeholder:text-neutral-400 text-white md:placeholder:text-lg md:w-11/12 bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition' onChange={handleChange}></input>
-                <textarea id='message' name='message' placeholder='Message' className='placeholder:text-neutral-400 md:placeholder:text-lg md:w-11/12 text-white bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition h-36 resize-none' onChange={handleChange}></textarea>
+            <form className='flex flex-col gap-5 w-11/12 mx-auto md:w-1/2 items-center justify-center md:h-full' onSubmit={(e) => onSubmitForm(e)}>
+                <input id='name' name='name' type='text' placeholder='Your Name' className=' placeholder:text-neutral-400 text-white md:placeholder:text-lg w-full md:w-11/12 bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition' onChange={handleChange}></input>
+                <input id='email' name='email' type='email' placeholder='Your Email' className='placeholder:text-neutral-400 text-white md:placeholder:text-lg w-full md:w-11/12 bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition' onChange={handleChange}></input>
+                <textarea id='message' name='message' placeholder='Message' className='placeholder:text-neutral-400 md:placeholder:text-lg w-full md:w-11/12 text-white bg-black/25 p-2 rounded-md outline-none border-2 border-black/0 ] border-l-green-400 focus:border-green-400/75 transition h-36 resize-none' onChange={handleChange}></textarea>
 
                 {
                     {
-                        undefined: <button className='p-2 bg-neutral-700 rounded-lg drop-shadow-lg font-bold text-lg text-white md:w-11/12'>GO!</button>,
-                        'loading': <button className='p-2 bg-neutral-700 rounded-lg drop-shadow-lg font-bold text-lg text-white md:w-11/12 disabled'>Sending...</button>,
-                        'error': <button className='p-2 bg-neutral-red0499 rounded-lg drop-shadow-lg font-light text-base text-white md:w-11/12 border-red-400 border-2' disabled>Error submitting! Try again later.</button>,
-                        'success': <button className='p-2 bg-neutral-red0499 rounded-lg drop-shadow-lg font-light text-base text-white md:w-11/12 border-green-400 border-2 disabled'>Your idea has been shipped!</button>
+                        undefined: <button className='p-2 bg-neutral-700 rounded-lg drop-shadow-lg font-bold text-lg text-white w-full md:w-11/12'>GO!</button>,
+                        'loading': <button className='p-2 bg-neutral-700 rounded-lg drop-shadow-lg font-bold text-lg text-white w-full md:w-11/12 disabled'>Sending...</button>,
+                        'error': <button className='p-2 bg-neutral-red0499 rounded-lg drop-shadow-lg font-light text-base text-white w-full md:w-11/12 border-red-400 border-2' disabled>Error submitting! Try again later.</button>,
+                        'success': <button className='p-2 bg-neutral-red0499 rounded-lg drop-shadow-lg font-light text-base text-white w-full md:w-11/12 border-green-400 border-2 disabled'>Your idea has been shipped!</button>
                     }[form.state]
                 }
             </form>
-        </div >
+        </div>
         // </Parallax>
     )
 }

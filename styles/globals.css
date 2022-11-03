@@ -30,3 +30,14 @@ a {
     background: black;
   }
 }
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(126, 40, 191) !important;
+}
+
+.swiper-button-next {
+  color: rgb(126, 40, 191) !important;
+}
+.swiper-button-prev {
+  color: rgb(126, 40, 191) !important;
+}

@@ -8,7 +8,7 @@ export default function WhoAmI() {
     return (
         <>
 
-            <section id='whoAmI' className='h-[70vh] w-full bg-red-500 saturate-150'>
+            <section id='whoAmI' className='h-[100vh] w-full bg-red-500 saturate-150'>
                 <Parallax translateY={['200px', '-200px']} speed={-20} >
                     <img src='spaceship.png' className='md:w-[400px] absolute'></img>
                 </Parallax>
