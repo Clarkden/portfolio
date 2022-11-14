@@ -71,6 +71,21 @@ export default function Mywork() {
                     <img src="digital_initiative2.png"></img>
                   </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                  <div className="">
+                    <img src="project4.png"></img>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="">
+                    <img src="project1.png"></img>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="">
+                    <img src="project2.png"></img>
+                  </div>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
