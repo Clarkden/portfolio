@@ -64,6 +64,7 @@ export default function Home() {
         <Mywork />
 
         <Contact />
+
       </main>
       <footer className="w-11/12 px-8 pb-4 text-base font-light text-white">
         Copyright © 2022
