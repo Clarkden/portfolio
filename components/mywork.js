@@ -31,7 +31,7 @@ export default function Mywork() {
     <section className="h-[100vh] flex flex-col md:flex-row">
       {modal && (
         <div className="w-full h-full bg-black bg-opacity-50 fixed top-0 left-0 z-50 flex justify-center items-center">
-          <div className="bg-neutral-900 rounded-lg p-5 relative max-h-[90vh] max-w-[55vw] overflow-scroll">
+          <div className="bg-neutral-900 rounded-lg p-5 relative max-h-[70vh] max-w-[90vw] md:max-h-[90vh] md:max-w-[55vw] overflow-scroll border-[1px] border-gray-500">
             <div className="flex items-center justify-between">
               <h1 className="text-white text-2xl font-semibold">
                 {modalData?.title}
